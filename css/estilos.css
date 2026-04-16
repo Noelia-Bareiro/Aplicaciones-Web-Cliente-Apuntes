@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+html {
+    --bg-color-200:#151b23;
+    --bg-color-200-75:#151b23bf;
+    --bg-color-400:#212831;
+    --text-color:#cfd7e2;
+    --accent-color-200:#19100a;
+    --accent-color-400:#ff843d;
+    --accent-color-500:hsl(22, 100%, 78%);
+
+    --text-heading: "Bebas Neue", sans-serif;
+    --text-base: "Nunito Sans", sans-serif;
+}
+
+body {
+    background-color: var(--bg-color-200);
+    color: var(--text-color);
+    font-family: var(--text-base);
+    line-height: 1.5;
+}
+
+header,
+footer {
+    background-color: var(--bg-color-400);
+}
+
+
+h1,
+h2 {
+    font-family: var(--text-heading);
+}
